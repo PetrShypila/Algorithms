@@ -1,12 +1,8 @@
-package com.epam;
+package com.epam.trees;
 
-import com.epam.trees.*;
+public class TreeUtils {
+    public static Node getBsTree(){
 
-import java.util.*;
-
-public class Main {
-
-    public static void main(String[] args) {
         Node n0 = new Node(0);
         Node n1 = new Node(1);
         Node n2 = new Node(2);
@@ -37,6 +33,6 @@ public class Main {
         n3.right = n4;
         n1.right = n2;
 
-        TreePrinter.printTree(n10);
+        return n10;
     }
 }
