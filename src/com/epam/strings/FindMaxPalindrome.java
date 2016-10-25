@@ -2,6 +2,11 @@ package com.epam.strings;
 
 class FindMaxPalindrome {
 
+    public static void main(String[] args) {
+        final String s = "";
+        System.out.println(FindMaxPalindrome.find(s));
+    }
+
     static String find(String s) {
         String result = s.length() > 0 ? s.substring(0,1) : "";
 
